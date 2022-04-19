@@ -10,6 +10,17 @@
 /* ***************************************************** */
 #include <stdio.h>
 #include "cmdproc.h"
+#include <unity.h>
+
+void setUp(void)
+{
+	return;
+}
+void tearDown(void)
+{
+	return;
+}
+
 
 extern char Kp, Ti, Td;
 
